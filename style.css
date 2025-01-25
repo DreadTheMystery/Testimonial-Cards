@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.testimonial-card,
+.testimonial-main {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial-main {
+    max-width: 600px;
+}
+
+.testimonial-card p,
+.testimonial-main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-left .user-info img {
+    order: 1;
+    margin-right: 10px;
+}
+
+.card-right .user-info img {
+    order: -1;
+    margin-left: 10px;
+}
+
+.card-bottom .user-info {
+    flex-direction: column;
+}
+
+.card-bottom .user-info img {
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.user-info h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carousel button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.carousel-images img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-images img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
